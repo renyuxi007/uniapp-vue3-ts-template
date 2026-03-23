@@ -1,0 +1,56 @@
+{
+  "name": "uniapp-vue3-ts-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint:dev": "cross-env NODE_ENV=development eslint .",
+    "lint:dev:fix": "cross-env NODE_ENV=development eslint . --fix",
+    "lint:prod": "cross-env NODE_ENV=production eslint .",
+    "lint:prod:fix": "cross-env NODE_ENV=production eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "dev:h5": "uni",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:h5": "uni build",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "type-check": "tsc --noEmit -p tsconfig.typecheck.json"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5000420260318001",
+    "@dcloudio/uni-components": "3.0.0-5000420260318001",
+    "@dcloudio/uni-h5": "3.0.0-5000420260318001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-5000420260318001",
+    "@dcloudio/uni-ui": "^1.5.11",
+    "pinia": "2.0.27",
+    "pinia-plugin-persistedstate": "3.2.0",
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/vite-plugin-uni": "3.0.0-5000420260318001",
+    "@eslint/js": "^9.38.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "@uni-helper/uni-app-types": "1.0.0-alpha.6",
+    "@vue/runtime-core": "3.4.21",
+    "@vue/tsconfig": "^0.8.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.5.1",
+    "miniprogram-api-typings": "^4.1.0",
+    "prettier": "^3.6.2",
+    "sass": "1.53.0",
+    "sass-loader": "10.2.1",
+    "typescript": "^5.6.3",
+    "vite": "5.2.8",
+    "vue-eslint-parser": "^10.2.0",
+    "vue-tsc": "^2.1.10"
+  },
+  "engines": {
+    "node": ">=18.20.0 <23",
+    "pnpm": ">=10.0.0"
+  }
+}

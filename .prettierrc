@@ -1,0 +1,14 @@
+{
+  "semi": false, // 每句结尾加分号
+  "singleQuote": true, // 使用单引号
+  "printWidth": 100, // 每行最大长度 100 字符
+  "trailingComma": "all", // 对象或数组最后一个元素后加逗号
+  "arrowParens": "avoid", // 单参数箭头函数省略括号
+  "endOfLine": "auto", // 自动识别换行符（跨平台兼容）
+  "bracketSpacing": true, // 对象大括号内留空格
+  "tabWidth": 2, // 每层缩进 2 个空格
+  "useTabs": false, // 使用空格代替 Tab
+  "vueIndentScriptAndStyle": false, // Vue 文件中 script/styles 不额外缩进
+  "singleAttributePerLine": false, // HTML 标签属性不强制每行一个
+  "htmlWhitespaceSensitivity": "ignore" // HTML 空白不敏感（保留原有格式）
+}

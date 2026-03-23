@@ -1,0 +1,26 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      // uview-pro 规则如下配置 pnpm i uview-pro 后，安装的组件库路径为 node_modules/uview-pro/components
+      // "^u-(.*)": "uview-pro/components/u-$1/u-$1.vue",
+
+      // uni-ui 规则如下配置 pnpm i @dcloudio/uni-ui 后，安装的组件库路径为 node_modules/@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
